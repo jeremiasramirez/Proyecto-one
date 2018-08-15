@@ -1,37 +1,6 @@
 body{
 margin: 0;
 padding: 0;
-display: flex;
-justify-content: center;
-align-items: center;
-min-height: 100vh;
-background-image: linear-gradient(to left, orangered, yellow);
-background-repeat:no-repeat;
-animation:colores 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) alternate infinite;
-transition-property:all;
-transition-duration:2s;
-transition-timing-function: linear;
+}
 
-}
-@keyframes colores{
-    to{
-        transition:all 1s linear;
-        opacity: 0.2;
-    }
-}
 *,::before,::after{box-sizing: border-box;}
-
-.izquierdo{
-    animation-name:izquierdo;
-    animation-duration:50s;
-    animation-direction:alternate;
-    animation-iteration-count: infinite;
-   
-
-}
-@keyframes izquierdo{
-    to{
-        transform: rotate(-50turn);
-       
-    }
-}
