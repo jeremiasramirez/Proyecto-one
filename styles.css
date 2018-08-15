@@ -5,7 +5,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 min-height: 100vh;
-background-image: linear-gradient(to left, red, yellow);
+background-image: linear-gradient(to left, orangered, yellow);
 background-repeat:no-repeat
 }
 *,::before,::after{box-sizing: border-box;}
