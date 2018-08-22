@@ -1,0 +1,36 @@
+:root {
+
+    --extra-large: 4.8rem;
+    --large: 3.8rem;
+    --medium: 2rem;
+    --normal: 1.8rem;
+    --small: 1.2rem;
+    --extra-small: .8rem;
+
+}
+
+
+.extra-large{
+    font-size: var(--extra-large);
+}
+
+.large{
+    font-size: var(--large);
+}
+
+.medium{
+ font-size: var(--medium)
+}
+
+.normal{
+ font-size: var(--normal)
+}
+
+.small{
+ font-size: var(--small);
+}
+
+.extra-small{
+ font-size: var(--extra-small);
+}
+
